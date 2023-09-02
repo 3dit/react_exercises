@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Create React App is known to have problems with more recent versions of node. The following may be requried to get the server to work as expected. From bash:
+### `export NODE_OPTIONS=--openssl-legacy-provider`
+
 ## Available Scripts
 
 In the project directory, you can run:
